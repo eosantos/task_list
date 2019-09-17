@@ -127,7 +127,7 @@ class _HomeState extends State<Home> {
         value: _toDoList[index]["ok"],
         secondary: CircleAvatar(
           backgroundColor: Colors.orangeAccent,
-          child: Icon(_toDoList[index]["ok"] ?
+          child: Icon( _toDoList[index]["ok"] ?
           Icons.check : Icons.announcement),),
         onChanged: (c){
           setState(() {
